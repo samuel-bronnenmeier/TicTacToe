@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe Aktive Datei kompilieren",
+			"command": "C:\\mingw-w64\\mingw32\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${workspaceFolder}\\src\\*.cpp",
+				"-I",
+				"${workspaceFolder}\\include",
+				"-I",
+				"C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL2\\include\\SDL2",
+				"-I",
+				"C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL_image\\include\\SDL2",
+				"-I",
+				"C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL_ttf\\include\\SDL2",
+				//"-I",
+				//"C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL_mixer\\include\\SDL2",
+				"-L",
+				"C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL2\\lib",
+				"-L",
+				"C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL_image\\lib",
+				"-L",
+				"C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL_ttf\\lib",
+				//"-L",
+				//"C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL_mixer\\lib",
+				"-w",
+				//"-Wl,-subsystem,windows",
+				"-lmingw32",
+				"-lSDL2main",
+				"-lSDL2",
+				"-lSDL2_image",
+				"-lSDL2_ttf",
+				//"-lSDL2_mixer",
+				"-o",
+				"${workspaceFolder}\\build\\TicTacToe.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Compiler: C:\\mingw-w64\\mingw32\\bin\\g++.exe"
+		}
+	]
+}

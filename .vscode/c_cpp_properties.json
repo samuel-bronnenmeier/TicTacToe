@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL2\\include\\SDL2",
+                "C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL_image\\include\\SDL2",
+                "C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL_ttf\\include\\SDL2",
+                "C:\\Users\\Samuel\\cpp\\mingw_dev_lib\\SDL_mixer\\include\\SDL2"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\mingw-w64\\mingw32\\bin\\g++.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x86"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,23 @@
+1 VERSIONINFO
+FILEVERSION     1,0,1,0
+PRODUCTVERSION  1,0,1,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904E4"
+    BEGIN
+      VALUE "CompanyName", "The AweSam Products"
+      VALUE "FileDescription", "TicTacToe (32 Bit)"
+      VALUE "FileVersion", "1.0.1"
+      VALUE "InternalName", "TicTacToe"
+      VALUE "LegalCopyright", "Samuel Bronnenmeier"
+      VALUE "OriginalFilename", "TicTacToe.exe"
+      VALUE "ProductName", "TicTacToe"
+      VALUE "ProductVersion", "1.0.1"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809, 1252
+  END
+END
